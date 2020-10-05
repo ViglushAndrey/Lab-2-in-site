@@ -1,0 +1,367 @@
+
+
+header,
+footer {
+    text-align: center;
+}
+
+ul.main > li {
+    padding-bottom: 12px;
+}
+
+ul.main {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+ul.gradient {
+    list-style-image: linear-gradient(to bottom, #ff0400 0%,#0000ff 100%);
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+
+.table1 {
+    width: 360px;
+}
+
+.table1 tr td:first-of-type {
+    text-align: center;
+}
+
+
+.table2 {
+    width: 480px;
+    background-color: #E7E6E6;
+}
+
+.table2 th {
+    background: #FFD966;
+}
+
+.table2 tr td:first-of-type {
+    background-color: #9CC2E5;
+}
+
+.table2 tr:last-of-type td {
+    background-color: #538135;
+    font-weight: bold;
+}
+
+
+.table3 {
+    border-collapse: separate;
+    color: #006CC2;
+    border: solid 1px #006CC2;
+}
+
+.table3 th {
+    border: #6699CC solid 2px;
+    font-weight: normal;
+}
+
+.table3 td {
+    border: #6699CC solid 2px;
+    font-size: smaller;
+}
+
+
+.table4,
+.table5,
+.table6{
+    width: 720px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-transform: uppercase;
+}
+
+.table4 th,
+.table4 td {
+    border: #992300 solid 3px;
+}
+
+.table4 .header {
+    height: 80px;
+    background-color: #2e4e96;
+    font-size: 40px;
+    color: #da8b21;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.table4 .menu {
+    height: 40px;
+    background-color: #f3e1c7;
+    font-size: 26px;
+}
+
+.table4 .news {
+    height: 300px;
+    background-color: #2e4e96;
+    font-size: 22px;
+    color: #fbe7c9;
+    padding-left: 20px;
+    vertical-align: top;
+    padding-top: 60px;
+}
+
+.table4 .content {
+    font-size: 30px;
+    background-color: #f3e1c7;
+    vertical-align: top;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+
+.table5 th,
+.table5 td {
+    border: #BADB91 solid 3px;
+}
+.table5 .header {
+    height: 80px;
+    background-color: #15430A;
+    font-size: 40px;
+    color: #A79D27;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.table5 .menu {
+    height: 300px;
+    background-color: #C4BB2D;
+    font-size: 30px;
+    color: #23380C;
+    padding-left: 40px;
+    vertical-align: top;
+    padding-top: 120px;
+}
+
+.table5 .content {
+    font-size: 30px;
+    background-color: #DADDC7;
+    vertical-align: top;
+    padding-top: 60px;
+    padding-left: 80px;
+    color: #23380C;
+}
+
+.table5 .footer {
+    height: 40px;
+    background-color: #15430A;
+    font-size: 20px;
+    color: #A79D27;
+    padding-left: 40px;
+}
+
+
+
+.table6 th,
+.table6 td {
+    border: #9A3200 solid 3px;
+}
+.table6 .header {
+    height: 80px;
+    background-color: #A27EB3;
+    font-size: 40px;
+    color: #27003B;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.table6 .menu {
+    height: 40px;
+    background-color: #E6CAF3;
+    font-size: 26px;
+    padding-left: 40px;
+}
+
+.table6 .content {
+    font-size: 30px;
+    background-color: #f3e1c7;
+    vertical-align: top;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+
+.table6 .news {
+    height: 300px;
+    background-color: #480468;
+    font-size: 22px;
+    color: #E5CFC0;
+    padding-left: 40px;
+    vertical-align: top;
+    padding-top: 120px;
+}
+
+caption {
+    color: black;
+    text-transform: none;
+    font-family: sans-serif;
+}
+
+.schedule {
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.schedule td {
+    background-color: #FFEFD5;
+    width: 280px;
+}
+
+.schedule td.day {
+    width: 40px;
+    font-size: 20px;
+    background-color: #F0E68C;
+}
+
+.schedule td.number {
+    font-size: 20px;
+    width: 20px;
+    background-color: #3CB371;
+}
+
+.schedule td.history {
+    background-color: #E3D2E5;
+}
+
+.schedule td.java {
+    background-color: #D1D7ED;
+}
+
+.schedule td.os {
+    background-color: #A9A9A9;
+}
+
+.schedule td.db {
+    background-color: #CBE9C3;
+}
+
+.schedule td.web {
+    background-color: #F3DFA0;
+}
+
+.schedule td.eng {
+    background-color: #C5B096;
+}
+
+.schedule td.pt {
+    background-color: #CCD2A8;
+}
+
+.schedule td.pract {
+    background-color: #E8BAB2;
+}
+
+.schedule td.math {
+    background-color: #C4AFD9;
+}
+
+.schedule tr.header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+a {
+    font-size: 18px;
+    color: crimson;
+}
+	
+
+/* Кнопка спадного меню */
+.dropbtn {
+    background-color: gainsboro;
+    color: blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Контейнер <div> - необхідний для розміщення випадаючого вмісту */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Випадаючий вміст (приховано за замовчуванням) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Посилання всередині спадного меню */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Зміна коліру випадаючих посилань при наведенні */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Показує спадне меню при наведенні */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Зміна коліру фону кнопки, що випадає, коли відображається випадаючий вміст */
+.dropdown:hover .dropbtn {background-color: darkgray;}
+
+
+
+
+/* Кнопка спадного меню */
+.dropbtn_laba2 {
+	background-color: gainsboro;
+	color: green;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/* Контейнер <div> - необхідний для розміщення випадаючого вмісту */
+.dropdown_laba2 {
+	position: relative;
+	display: inline-block;
+}
+
+/* Випадаючий вміст (приховано за замовчуванням) */
+.dropdown-content_laba2 {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Посилання всередині спадного меню */
+.dropdown-content_laba2 a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Зміна коліру випадаючих посилань при наведенні */
+.dropdown-content_laba2 a:hover {background-color: #ddd;}
+
+/* Показує спадне меню при наведенні */
+.dropdown_laba2:hover .dropdown-content_laba2 {display: block;}
+
+/* Зміна коліру фону кнопки, що випадає, коли відображається випадаючий вміст */
+.dropdown_laba2:hover .dropbtn_laba2 {background-color: darkgray;}
+
